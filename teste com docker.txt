@@ -1,0 +1,5 @@
+# Teste na máquina
+
+docker build -t meu-site-teste .
+
+docker run -d -p 8080:80 meu-site-teste
