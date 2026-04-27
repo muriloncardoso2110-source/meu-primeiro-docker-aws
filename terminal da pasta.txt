@@ -1,0 +1,21 @@
+# Inicia o Git
+git init
+
+# Primeiro commit:
+git add index.html
+git commit -m "feat: estrutura inicial do html"
+
+# Segundo commit: adicionando o docker
+git add Dockerfile
+git commit -m "feat: adicionando dockerfile para rodar nginx"
+
+# Erros que acontece e aconteceu..
+echo "# Projeto Lab DevOps" >> README.md
+echo "Tentei rodar com Python mas o Dockerfile ficou pesado, mudei para Nginx Alpine." >> README.md
+git add README.md
+git commit -m "docs: adicionando notas de erro e aprendizado"
+
+# Conecta e sobe no github
+git branch -M main
+git remote add origin (url do github)
+git push -u origin main
