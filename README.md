@@ -1,5 +1,5 @@
 Lab de Docker 🐳
-Fiz esse projeto pra parar de sofrer com ambiente local e começar a entender como o Docker funciona na prática, já visando subir pra AWS depois.
+Fiz esse projeto pra parar de sofrer com ambiente local e começar a entender como o Docker funciona na prática, e depois subir na AWS
 
 O que tem aqui:
 É um servidor Nginx rodando um HTML simples. Usei a imagem Alpine porque é muito mais leve que as outras.
